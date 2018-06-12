@@ -1,0 +1,27 @@
+01 - Fazer tela inicial da aplicação
+02 - Fazer tela 2 (XML)
+03 - Fazer tela 3 (JSON)
+04 - Fazer arquivo XML externo	(100 registros)
+05 - Fazer arquivo JSON externo 	(100 registros)
+06 - Fazer arquivo XML externo	(10000 registros)
+07 - Fazer arquivo JSON externo 	(10000 registros)
+08 - Fazer tela 2 ler e trabalhar dados XML
+09 - Fazer tela 3 ler e trabalhar dados JSON
+10 - Instalar e configurar Jmeter
+11 - Realizar testes no Jmeter com o XML
+12 - Realizar testes no Jmeter com o JSON
+13 - Fazer Relatório final do projeto
+	CONTEÚDO TÉCNICO:
+		* Servlets
+		* JSP
+		* XML
+		* JSON
+		* Apache Jmeter
+	EXPLICAÇÃO DO PROJETO:
+		* itens 1 - 12
+	RESULTADOS OBTIDOS:
+		* explicar os resultados obtidos
+		* qual foi mais rápido
+		* qual foi mais leve
+		* qual foi mais fácil de trabalhar
+		* os resultados são os mesmos para um volume maior de dados
