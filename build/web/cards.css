@@ -1,0 +1,25 @@
+body {
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: min-content;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card_container {
+    padding: 2px 16px;
+}

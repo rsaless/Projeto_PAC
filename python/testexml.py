@@ -1,4 +1,3 @@
-
 arquivo = open("dados10000.xml", "w")
 numero_alunos = 10000       # parâmetro que indica a quantidade de alunos
 alunos = numero_alunos+1    # parâmetro utilizado

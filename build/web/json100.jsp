@@ -24,15 +24,20 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="cards.css">
         <title>JSON 100</title>
     </head>
     <body>
         <% while (i.hasNext()) { 
             JSONObject aluno = (JSONObject) i.next();%>
-            <p>Nome: <%= aluno.get("nome") %> </p> 
-            <p>Email: <%= aluno.get("email") %> </p>
-            <p>RA: <%= aluno.get("ra") %> </p>
-            <hr>
+            <div class="card">
+              <img src="img_avatar.png" alt="Avatar" width="200px" height="200px">
+              <div class="card_container">
+                <h4><b><%= aluno.get("nome") %></b></h4> 
+                <p><%= aluno.get("email") %></p> 
+                <p>RA: <%= aluno.get("ra") %> </p>
+              </div>
+            </div>
         <% } %>
     </body>
 </html>
