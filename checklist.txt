@@ -1,16 +1,20 @@
-01 - Fazer tela inicial da aplicação
-02 - Fazer tela 2 (XML)
-03 - Fazer tela 3 (JSON)
-04 - Fazer arquivo XML externo	(100 registros)
-05 - Fazer arquivo JSON externo 	(100 registros)
-06 - Fazer arquivo XML externo	(10000 registros)
-07 - Fazer arquivo JSON externo 	(10000 registros)
-08 - Fazer tela 2 ler e trabalhar dados XML
-09 - Fazer tela 3 ler e trabalhar dados JSON
-10 - Instalar e configurar Jmeter
-11 - Realizar testes no Jmeter com o XML
-12 - Realizar testes no Jmeter com o JSON
-13 - Fazer Relatório final do projeto
+01 - Fazer tela inicial da aplicação									[OK]
+02 - Estilizar tela 2 (XML 100)
+03 - Estilizar tela 3 (XML 10000)
+04 - Estilizar tela 4 (JSON 100)
+05 - Estilizar tela 5 (JSON 10000)				
+06 - Fazer arquivo XML externo	(100 registros)							[OK]
+07 - Fazer arquivo JSON externo (100 registros)							[OK]
+08 - Fazer arquivo XML externo	(10000 registros)						[OK]
+09 - Fazer arquivo JSON externo (10000 registros)						[OK]
+10 - Fazer tela 2 ler e trabalhar dados XML100
+11 - Fazer tela 3 ler e trabalhar dados XML10000						
+12 - Fazer tela 2 ler e trabalhar dados JSON100 						[OK]
+13 - Fazer tela 3 ler e trabalhar dados JSON10000						[OK]
+14 - Instalar e configurar Jmeter
+15 - Realizar testes no Jmeter com o XML
+16 - Realizar testes no Jmeter com o JSON
+17 - Fazer Relatório final do projeto
 	CONTEÚDO TÉCNICO:
 		* Servlets
 		* JSP

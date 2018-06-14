@@ -1,17 +1,38 @@
-<%-- 
-    Document   : json10000
-    Created on : 12/06/2018, 16:37:15
-    Author     : rafap
---%>
-
+<%@page import="java.util.Iterator"%>
+<%@page import="org.json.simple.JSONArray"%>
+<%@page import="org.json.simple.JSONObject"%>
+<%@page import="org.json.simple.parser.JSONParser"%>
+<%@page import="java.io.FileReader"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<% 
+    String url = "C:\\Users\\rafap\\OneDrive\\Documents\\NetBeansProjects\\Projeto_PAC\\json\\dados10000sf.json";
+    FileReader reader = new FileReader(url); 
+
+    JSONParser jsonParser = new JSONParser();
+    JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
+
+    // obtendo a lista
+    JSONObject lista = (JSONObject) jsonObject.get("lista");
+
+    // obtendo os alunos 
+    JSONArray alunos = (JSONArray) lista.get("aluno");
+
+    // varrer o vetor item por item
+    Iterator i = alunos.iterator();
+%>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>JSON 10K</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <% while (i.hasNext()) { 
+            JSONObject aluno = (JSONObject) i.next();%>
+            <p>Nome: <%= aluno.get("nome") %> </p> 
+            <p>Email: <%= aluno.get("email") %> </p>
+            <p>RA: <%= aluno.get("ra") %> </p>
+            <hr>
+        <% } %>
     </body>
 </html>
