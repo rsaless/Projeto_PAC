@@ -1,6 +1,6 @@
-01 - Fazer tela inicial da aplicação									[OK]
-02 - Estilizar tela 2 (XML 100)											[OK]
-03 - Estilizar tela 3 (XML 10000)										[OK]
+01 - Fazer tela inicial da aplicação								[OK]
+02 - Estilizar tela 2 (XML 100)									[OK]
+03 - Estilizar tela 3 (XML 10000)								[OK]
 04 - Estilizar tela 4 (JSON 100)										[OK]
 05 - Estilizar tela 5 (JSON 10000)										[OK]
 06 - Fazer arquivo XML externo	(100 registros)							[OK]
@@ -11,14 +11,14 @@
 11 - Fazer tela 3 ler e trabalhar dados XML10000						[OK]
 12 - Fazer tela 2 ler e trabalhar dados JSON100 						[OK]
 13 - Fazer tela 3 ler e trabalhar dados JSON10000						[OK]
-14 - Instalar e configurar Jmeter
+14 - Instalar e configurar Jmeter										[OK]
 15 - Realizar testes no Jmeter com o XML
 16 - Realizar testes no Jmeter com o JSON
 17 - Fazer Relatório final do projeto
 	CONTEÚDO TÉCNICO:
-		* Servlets
-		* JSP
-		* XML
+		* Servlets														[OK]
+		* JSP															[OK]
+		* XML 
 		* JSON
 		* Apache Jmeter
 	EXPLICAÇÃO DO PROJETO:

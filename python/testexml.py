@@ -1,7 +1,9 @@
-arquivo = open("dados10000.xml", "w")
-numero_alunos = 10000       # parâmetro que indica a quantidade de alunos
+
+arquivo = open("dados3.xml", "w")
+numero_alunos = 2       # parâmetro que indica a quantidade de alunos
 alunos = numero_alunos+1    # parâmetro utilizado
 
+arquivo.write("<?xml version=\"1.0\"?>\n")
 arquivo.write("<lista>\n")
 
 for i in range(alunos):

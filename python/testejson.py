@@ -1,6 +1,6 @@
 
-arquivo = open("dados10000.json", "w")
-numero_alunos = 10000       # parâmetro que indica a quantidade de alunos
+arquivo = open("dados3.json", "w")
+numero_alunos = 3       # parâmetro que indica a quantidade de alunos
 alunos = numero_alunos+1    # parâmetro utilizado
 
 arquivo.write("{\n")
