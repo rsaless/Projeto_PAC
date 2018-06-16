@@ -9,7 +9,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <% 
-String url = "C:\\Users\\rafap\\OneDrive\\Documents\\NetBeansProjects\\Projeto_PAC\\xml\\dados10000sf.xml";
+String url = "xml\\dados10000sf.xml";
             //abre o arquivo, lê o XML e normaliza ele
             File file = new File(url);
             DocumentBuilder dBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();

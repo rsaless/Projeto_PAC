@@ -1,5 +1,5 @@
 
-arquivo = open("dados3.xml", "w")
+arquivo = open("dados10k.xml", "w")
 numero_alunos = 2       # parâmetro que indica a quantidade de alunos
 alunos = numero_alunos+1    # parâmetro utilizado
 
@@ -12,8 +12,9 @@ for i in range(alunos):
             "      <nome>Nome Aluno {}</nome>\n"\
             "      <email>email_aluno{}@gmail.com</email>\n"\
             "      <ra>{}</ra>\n"\
-            "  </aluno>\n".format(i,i,ra)
+            "  </aluno>\n".format(i, i, ra)
     arquivo.write(aluno)
 
 arquivo.write("</lista>")
 arquivo.close()
+

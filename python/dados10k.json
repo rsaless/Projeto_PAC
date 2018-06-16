@@ -1,0 +1,21 @@
+{
+    "lista": {
+           "aluno": [
+               {
+               "nome": "Nome Aluno 0",
+               "email": "email_aluno0@gmail.com",
+               "ra":  726000
+               },
+               {
+               "nome": "Nome Aluno 1",
+               "email": "email_aluno1@gmail.com",
+               "ra":  726001
+               },
+               {
+               "nome": "Nome Aluno 2",
+               "email": "email_aluno2@gmail.com",
+               "ra":  726002
+              }
+           ]
+    }
+}

@@ -6,7 +6,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <% 
-    String url = "C:\\Users\\rafap\\OneDrive\\Documents\\NetBeansProjects\\Projeto_PAC\\json\\dados10000sf.json";
+    String url = "json\\dados10000sf.json";
     FileReader reader = new FileReader(url); 
 
     JSONParser jsonParser = new JSONParser();

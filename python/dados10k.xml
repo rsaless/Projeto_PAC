@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<lista>
+  <aluno>
+      <nome>Nome Aluno 0</nome>
+      <email>email_aluno0@gmail.com</email>
+      <ra>726000</ra>
+  </aluno>
+  <aluno>
+      <nome>Nome Aluno 1</nome>
+      <email>email_aluno1@gmail.com</email>
+      <ra>726001</ra>
+  </aluno>
+  <aluno>
+      <nome>Nome Aluno 2</nome>
+      <email>email_aluno2@gmail.com</email>
+      <ra>726002</ra>
+  </aluno>
+</lista>
